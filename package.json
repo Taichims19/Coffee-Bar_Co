@@ -1,0 +1,17 @@
+{
+  "name": "Coffee-Bar-Daniel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo "
+
+  },
+  "keywords": [],
+  "author": {},
+  "license": "",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+  
+
+}
