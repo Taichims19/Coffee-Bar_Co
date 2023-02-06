@@ -4,14 +4,9 @@ body {
   padding: 0;
 }
 $color-rojo-principal: #962328;
-$color-gris-principal: #d2d3d5 @media only screen and
-  (
-    min-width: 992px,
-  )
-  and
-  (
-    max-width: 1199px,
-  ) {
+$color-gris-principal: #d2d3d5;
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-coopesur {
     width: 100%;
 
@@ -151,24 +146,40 @@ $color-gris-principal: #d2d3d5 @media only screen and
     display: flex;
     align-items: center;
 
-    .caja-img-inicio {
-      position: relative;
-      top: 22%;
-      left: 8%;
-      width: 600px;
-      height: 200px;
-      background-color: #fff;
-      img {
+      .caja-img-inicio {
         position: relative;
-        transform: translate(0, -23%);
-        left: 6%;
-        width: 530px;
-        height: 300px;
+          top: 22%;
+          left: 8%;
+        width: 600px;
+        height: 200px;
+        background-color: #fff;
+        img {
+          position: relative;
+         transform: translate(0, -23%);
+          left: 6%;
+          width: 530px;
+          height: 300px;
+          
+        }
+      }
+  }
+  .caja-contenedora-articulos__1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .articulo-principal {
+      width: 84%;
+      display: flex;
+      background: #fff;
+      .articulo-principal-pt1 {
+        width: 60%;
+        margin: 20px;
+        padding: 10px;
+      }
+      .aside-articulo-principal {
+        width: 24%;
+
       }
     }
   }
-  
-     
-    
-
 }
