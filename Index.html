@@ -31,38 +31,40 @@
             <main class="coopesur-menu">
                 <div class="caja-contenedor__menu">
                     <img src="img/CoopeSur-logo.png" alt="coopesur-logo1">
-                    <ul>
-                        <li class:"" ><a href="http://" target="_blank" rel="noopener noreferrer">Conocenos</a></li>
-                    </ul>
-                    <ul>
-                        <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Nuestra Cadena</a></li>
-                    </ul>
-                    <ul>
-                        <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Labor Social</a></li>
-                    </ul>
-                    <ul>
-                        <li class="li-menu-1"><a href="http://" target="_blank" rel="noopener noreferrer">Certificaciones</a></li>
-                    </ul>
-                    <ul>
-                        <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                    </ul>
-                    <ul>
-                        <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Contáctanos</a></li>
-                    </ul>
+                    <div class="caja-menu-lista">
+                        <ul>
+                            <li class:"" ><a href="http://" target="_blank" rel="noopener noreferrer">Conocenos</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Nuestra Cadena</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Labor Social</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-menu-1"><a href="http://" target="_blank" rel="noopener noreferrer">Certificaciones</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-menu-1" ><a href="http://" target="_blank" rel="noopener noreferrer">Contáctanos</a></li>
+                        </ul>
+                    </div>
                 </div>
             </main>
         </div>
     </header>
     <div class="inicio-coopesur1">
         <div class="inicio-coopesur__caja1">
-            <a href="">Inicio</a>
+            <a href="" class="inicio-1">Inicio</a>
             <div class="separador-linea1"></div>
-            <a href="">Blog</a>
+            <a href="" class="inicio-2">Blog</a>
         </div>
     </div>
     <div class="inicio-coopesur2">
         <div class="caja-img-inicio">
-            <img src="img/Captura.PNG" alt="">
+            <img src="img/Captura.PNG" class="img-captura" alt="">
         </div>
     </div>
     <div class="caja-contenedora-articulos__1">
@@ -161,7 +163,7 @@
             <div class="caja-secundaria-1">
                 <h4>Origen del Cafe</h4>
                 <p>Aprende con nosotros el origen de nuestro rico cafe colombiano</p>
-                <button class="btn-abrir-popup">Leer más</button>
+                <button class="btn-abrir-popup1" id="btn-abrir-popup1" >Leer más</button>
             </div>
         </div>
         <div class="articulo-secundario-2">
@@ -169,7 +171,7 @@
             <div class="caja-secundaria-2">
                 <h4>Cafe Expres Vallecaucano</h4>
                 <p>Nuestra nueva siembra de cafe express directo de la siembra a su tasa</p>
-                <button class="btn-abrir-popup">Leer más</button>
+                <button class="btn-abrir-popup2" id="btn-abrir-popup2" >Leer más</button>
             </div>
         </div>
         <div class="articulo-secundario-3">
@@ -179,12 +181,62 @@
             </div>
             <h4>Nuestro pais avanza a pasos grandes</h4>
                 <p>Gran taller de nuevos emprendedores</p>
-                <button class="btn-abrir-popup">Leer más</button>
+                <button class="btn-abrir-popup3" id="btn-abrir-popup3">Leer más</button>
         </div>
-        <button class="btn-abrir-popup">Leer más</button>
+        <button class="btn-abrir-popup4" id="btn-abrir-popup4">Leer más</button>
     </div>
-    <div class="overlay">
-        <div class="popup">
+    <div class="seccion-final">
+        <div class="formulario">
+            <div class="contacto-footer">
+                <hr class="linea-footer1">
+                <p>Contáctanos</p>
+                <hr class="linea-footer2">
+            </div>
+           <div class="formulario-2">
+            <div class="formulario-caja-footer">
+                <input type="text" id="nombre-footer" name="nombre" placeholder="Nombre">
+                <input type="email" id="email-footer" name="email" placeholder="Email">
+                <textarea name="textarea-footer" id="textarea-footer" cols="30" style="resize: none overflow: scrool;" rows="10" placeholder="Asunto"></textarea>
+                <input type="submit" value="Enviar">
+            </div>
+            <div class="formulario-info">
+                <div class="hijo-formulario-info1">
+                    <img src="img/ico-telefono.png" alt="">
+                    <p>
+                    418.03.45 - 306.92.49
+                    </p>
+                </div>
+                <div class="hijo-formulario-info2">
+                    <img src="img/ico-correo.png" alt="">
+                    <p>recursoshumanos@cooperativacoopesur.com</p>
+                </div>
+                <div class="hijo-formulario-info3">
+                    <img src="img/ico-posicion.png" alt="">
+                    <p>Carrera 48 B N°99 Sur 59. Bodega 12 <br> San Bartolomé, La Estrella</p>
+                </div>
+            </div>
+           </div>
+           <div class="footer-iconos">
+            <ul>
+                <li><a href="#"><i class="fa fa fa-facebook"></i> </a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i> </a></li>
+                <li><a href="#"><i class="fa fa fa-youtube-play"></i> </a></li>
+                <li><a href="#"><i class="fa fa fa-instagram"></i> </a></li>
+            </ul>
+           </div>
+        </div>
+        <div class="fondo-rojo"></div>
+        <div class="footer">
+            <p>Diseñado por:</p>
+                    <img src="img/Muva.svg" alt="">
+        </div>
+    </div>
+
+
+
+    <!-- SECCION DE CAJONES DE VENTANA EMERGENTE -->
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
             <div class="popup-secundario-1">
                 <div class="popup-header">
                     <a href="" id="btn-cerrar-popup"><i class="fas fa-times"></i></a>

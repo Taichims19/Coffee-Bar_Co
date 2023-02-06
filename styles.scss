@@ -1,3 +1,174 @@
 body {
-    background: #ccc;
+  background: green;
+  margin: 0;
+  padding: 0;
+}
+$color-rojo-principal: #962328;
+$color-gris-principal: #d2d3d5 @media only screen and
+  (
+    min-width: 992px,
+  )
+  and
+  (
+    max-width: 1199px,
+  ) {
+  .header-coopesur {
+    width: 100%;
+
+    .contenedor-iconos-inicio {
+      background-color: #c8a27e;
+      height: 27px;
+      display: flex;
+      justify-content: end;
+      width: 100% !important;
+
+      .caja-iconos-correos {
+        margin-right: 1%;
+        display: flex;
+        height: 27px;
+
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 300;
+          color: #000;
+          height: 27px;
+          padding: 0px 5px;
+          margin: 2px;
+          text-align: end;
+        }
+        p {
+          font-size: 16px;
+          color: #000;
+          height: 27px;
+          margin: 2px;
+          padding: 0px 5px;
+        }
+      }
+      .caja-iconos-redes {
+        margin-right: 5%;
+        ul {
+          height: 27px;
+          margin: 2px;
+          padding: 0px 5px;
+          padding: 2px 30px;
+          li {
+            display: inline-block;
+            list-style-type: none;
+
+            a > i {
+              color: #000;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+    .coopesur-contenedor__1-menu {
+      width: 100%;
+      height: 350px;
+      background: red;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url("img/Captura.PNG");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+
+      .coopesur-menu {
+        .caja-contenedor__menu {
+          display: flex;
+          justify-content: space-around;
+          border-bottom: 4px solid #fff;
+          border-width: 2px;
+          height: 80px;
+
+          img {
+            width: 160px;
+            height: 70px;
+            position: absolute;
+            top: 6%;
+            left: 8%;
+          }
+          .caja-menu-lista {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            ul {
+              list-style-type: none;
+              position: relative;
+              top: 32px;
+              left: 10%;
+              padding: 5px 5px;
+              margin-left: 1%;
+              li {
+                a {
+                  color: #fff;
+                  text-decoration: none;
+                  font-weight: 300;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .inicio-coopesur1 {
+    width: 100%;
+    background-color: #d2d3d5;
+    height: 40px;
+    .inicio-coopesur__caja1 {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      .separador-linea1 {
+        border-left: 2px solid #000;
+        width: 20px;
+        height: 20px;
+        margin-left: 3%;
+      }
+      .inicio-1 {
+        margin-left: 9%;
+        text-decoration: none;
+        color: #808080;
+      }
+      .inicio-2 {
+        margin-left: 4%;
+        text-decoration: none;
+        color: #808080;
+      }
+    }
+  }
+  .inicio-coopesur2 {
+    background-color: $color-rojo-principal;
+    height: 350px;
+    display: flex;
+    align-items: center;
+
+    .caja-img-inicio {
+      position: relative;
+      top: 22%;
+      left: 8%;
+      width: 600px;
+      height: 200px;
+      background-color: #fff;
+      img {
+        position: relative;
+        transform: translate(0, -23%);
+        left: 6%;
+        width: 530px;
+        height: 300px;
+      }
+    }
+  }
+  
+     
+    
+
 }

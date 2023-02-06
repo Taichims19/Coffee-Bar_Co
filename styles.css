@@ -1,3 +1,164 @@
 body {
-  background: #ccc;
+  background: green;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-coopesur {
+    width: 100%;
+  }
+  .header-coopesur .contenedor-iconos-inicio {
+    background-color: #c8a27e;
+    height: 27px;
+    display: flex;
+    justify-content: end;
+    width: 100% !important;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-correos {
+    margin-right: 1%;
+    display: flex;
+    height: 27px;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-correos a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    height: 27px;
+    padding: 0px 5px;
+    margin: 2px;
+    text-align: end;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-correos p {
+    font-size: 16px;
+    color: #000;
+    height: 27px;
+    margin: 2px;
+    padding: 0px 5px;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-redes {
+    margin-right: 5%;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-redes ul {
+    height: 27px;
+    margin: 2px;
+    padding: 0px 5px;
+    padding: 2px 30px;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-redes ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  .header-coopesur .contenedor-iconos-inicio .caja-iconos-redes ul li a > i {
+    color: #000;
+    font-size: 17px;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu {
+    width: 100%;
+    height: 350px;
+    background: red;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("img/Captura.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu .caja-contenedor__menu {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px solid #fff;
+    border-width: 2px;
+    height: 80px;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu .caja-contenedor__menu img {
+    width: 160px;
+    height: 70px;
+    position: absolute;
+    top: 6%;
+    left: 8%;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu .caja-contenedor__menu .caja-menu-lista {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu .caja-contenedor__menu .caja-menu-lista ul {
+    list-style-type: none;
+    position: relative;
+    top: 32px;
+    left: 10%;
+    padding: 5px 5px;
+    margin-left: 1%;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu .caja-contenedor__menu .caja-menu-lista ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .inicio-coopesur1 {
+    width: 100%;
+    background-color: #d2d3d5;
+    height: 40px;
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 .separador-linea1 {
+    border-left: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    margin-left: 3%;
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 .inicio-1 {
+    margin-left: 9%;
+    text-decoration: none;
+    color: #808080;
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 .inicio-2 {
+    margin-left: 4%;
+    text-decoration: none;
+    color: #808080;
+  }
+  .inicio-coopesur2 {
+    background-color: #962328;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .inicio-coopesur2 .caja-img-inicio {
+    position: relative;
+    top: 22%;
+    left: 8%;
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+  }
+  .inicio-coopesur2 .caja-img-inicio img {
+    position: relative;
+    transform: translate(0, -23%);
+    left: 6%;
+    width: 530px;
+    height: 300px;
+  }
+  .caja-contenedora-articulos__1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal {
+    width: 84%;
+    display: flex;
+    background: #fff;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal .articulo-principal-pt1 {
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal .aside-articulo-principal {
+    width: 24%;
+  }
 }/*# sourceMappingURL=styles.css.map */
