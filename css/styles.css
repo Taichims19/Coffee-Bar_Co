@@ -57,7 +57,7 @@ body {
 }
 .header-coopesur .coopesur-contenedor__1-menu {
   width: 100%;
-  height: 330px;
+  height: 250px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/img-principal-ib.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -850,7 +850,7 @@ body {
     left: 0;
     z-index: 10;
     display: none;
-    background-color: rgba(245, 204, 152, 0.8);
+    background-color: rgb(245, 204, 152);
     flex-direction: column;
     width: 45%;
     height: 100vh;
@@ -1079,7 +1079,7 @@ body {
     left: 0;
     z-index: 10;
     display: none;
-    background-color: rgba(245, 204, 152, 0.8);
+    background-color: rgb(245, 204, 152);
     flex-direction: column;
     width: 45%;
     height: 100vh;
@@ -1241,29 +1241,29 @@ body {
   }
   .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav {
     width: 100%;
+    display: flex;
   }
   .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav #back_menu {
     background: rgba(0, 0, 0, 0.7);
     width: 100vw;
+    height: 100vh;
     position: relative;
     top: 0;
-    left: 0;
+    left: 0%;
     z-index: 10;
     display: none;
   }
   .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav .hamburguesa-content {
     position: relative;
-    top: 0;
-    left: 0;
-    z-index: 10;
+    top: 0%;
+    left: 0%;
     display: none;
-    background-color: rgba(245, 204, 152, 0.8);
+    background-color: rgb(245, 204, 152);
     flex-direction: column;
     width: 45%;
     height: 100vh;
-    z-index: 10;
+    z-index: 200 !important;
     padding: 40px;
-    display: none;
     transition: all 300ms;
   }
   .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav .hamburguesa-content a:first-child {

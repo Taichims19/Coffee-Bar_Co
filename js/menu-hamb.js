@@ -18,8 +18,8 @@ function animateBars(){
     
 }
 function mostrar_menu(){
-    nav.style.display = "block";
-    background_menu.style.display = "block";
+    nav.style.display = "flex";
+    background_menu.style.display = "flex";
 }
 function ocultar_menu(){
     nav.style.display = "none";
