@@ -813,6 +813,13 @@ body {
   .header-coopesur .contenedor-iconos-inicio {
     justify-content: center;
   }
+  .header-coopesur .contenedor-iconos-inicio ul {
+    width: 100%;
+    padding: 3px 5px;
+  }
+  .header-coopesur .contenedor-iconos-inicio ul li {
+    padding: 0px;
+  }
   .header-coopesur .coopesur-contenedor__1-menu {
     height: 65px;
   }
@@ -892,12 +899,12 @@ body {
     background: #fff;
   }
   .caja-contenedora-articulos__1 .articulo-principal .articulo-principal-pt1 .raya-articulo-pt1 {
-    bottom: -6%;
+    bottom: -3%;
   }
   .caja-contenedora-articulos__1 .articulo-principal .articulo-principal-pt1 .caja-articulo-pt1 {
     height: 1450px;
     background-color: #fff;
-    bottom: -1%;
+    bottom: 1%;
   }
   .caja-contenedora-articulos__1 .articulo-principal .aside-articulo-principal {
     margin: 0px;

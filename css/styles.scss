@@ -853,8 +853,16 @@ body {
 
 @media only screen and (min-width: 342px) and (max-width: 542px) {
   .header-coopesur {
+
     .contenedor-iconos-inicio {
       justify-content: center;
+      ul {
+        width: 100%;
+        padding: 3px 5px;
+        li {
+          padding: 0px;
+        }
+      }
     }
     .coopesur-contenedor__1-menu {
       height: 65px;
@@ -932,12 +940,12 @@ body {
         height: 2830px;
         background: #fff;
         .raya-articulo-pt1 {
-          bottom: -6%;
+          bottom: -3%;
         }
         .caja-articulo-pt1 {
           height: 1450px;
           background-color: #fff;
-          bottom: -1%;
+          bottom: 1%;
         }
       }
 
