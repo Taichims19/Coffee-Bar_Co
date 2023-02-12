@@ -1,0 +1,1060 @@
+body {
+  background: green;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  text-align: justify;
+}
+$color-rojo-principal: rgba(150, 25, 40, 1);
+$color-gris-principal: #d2d3d5;
+
+.header-coopesur {
+  width: 100%;
+
+  .contenedor-iconos-inicio {
+    background-color: #c8a27e;
+    height: 27px;
+    display: flex;
+    justify-content: end;
+    width: 100% !important;
+
+    .caja-iconos-correos {
+      margin-right: 1%;
+      display: flex;
+      height: 27px;
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
+        height: 27px;
+        padding: 0px 5px;
+        margin: 2px;
+        text-align: end;
+      }
+      p {
+        font-size: 16px;
+        color: #000;
+        height: 27px;
+        margin: 2px;
+        padding: 0px 5px;
+      }
+    }
+    .caja-iconos-redes {
+      margin-right: 5%;
+      ul {
+        height: 27px;
+        margin: 2px;
+        padding: 0px 5px;
+        padding: 2px 30px;
+        li {
+          display: inline-block;
+          list-style-type: none;
+
+          a > i {
+            color: #000;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+  .coopesur-contenedor__1-menu {
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/Captura.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    .coopesur-menu {
+      display: flex;
+      justify-content: center;
+
+      .caja-contenedor__menu {
+        border-bottom: 4px solid #d2d3d5;
+        border-width: 2px;
+        margin-top: 10px;
+        height: 60px;
+        width: 84%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+          width: 140px;
+          height: 70px;
+        }
+        .caja-menu-lista {
+          display: flex;
+          align-items: end;
+
+          ul {
+            list-style-type: none;
+            padding: 5px 0px;
+            margin: 6px;
+
+            li {
+              a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .coopesur-menu-responsivo {
+      display: none;
+    }
+  }
+}
+.inicio-coopesur1 {
+  width: 100%;
+  background-color: #d2d3d5;
+  height: 40px;
+  .inicio-coopesur__caja1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    .separador-linea1 {
+      border-left: 2px solid #000;
+      width: 20px;
+      height: 20px;
+      margin-left: 3%;
+    }
+    .inicio-1 {
+      margin-left: 7%;
+      text-decoration: none;
+      color: #808080;
+    }
+    .inicio-2 {
+      margin-left: 2%;
+      text-decoration: none;
+      color: #808080;
+    }
+  }
+}
+.inicio-coopesur2 {
+  background-color: $color-rojo-principal;
+  height: 350px;
+  display: flex;
+  align-items: center;
+
+  .caja-img-inicio {
+    position: relative;
+    top: 22%;
+    left: 8%;
+    width: 58%;
+    height: 200px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em -1em rgba(0, 0, 0, 0.8);
+
+    img {
+      position: relative;
+      transform: translate(0, -23%);
+      left: 6%;
+      width: 88%;
+      height: 300px;
+      z-index: 3;
+    }
+  }
+}
+.caja-contenedora-articulos__1 {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  height: 1350px;
+  .articulo-principal {
+    width: 84%;
+    height: 88%;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    .articulo-principal-pt1 {
+      display: flex;
+      width: 69%;
+      box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
+
+      .raya-articulo-pt1 {
+        width: 100%;
+        height: 4px;
+        background-color: #962328;
+        border-top: 2px solid $color-rojo-principal;
+        position: relative;
+        bottom: -11%;
+      }
+      .caja-articulo-pt1 {
+        position: relative;
+        bottom: -3%;
+        margin: 20px;
+        padding: 10px;
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          padding: 5px;
+          font-size: 16px;
+        }
+        .hr-articulo-pt1 {
+          margin-top: 25%;
+          border-color: #962328;
+        }
+        .fondo-articulo-pt1 {
+          display: flex;
+          height: 60px;
+          align-items: center;
+          background: #fff;
+          a {
+            font-size: 16px;
+            color: #ababab;
+            padding: 8px;
+          }
+          img {
+            width: 30px;
+            padding: 3px;
+          }
+        }
+      }
+    }
+    .aside-articulo-principal {
+      width: 24%;
+      position: relative;
+      bottom: -4%;
+      background-color: rgba(220, 227, 232);
+      margin: 16px;
+      padding: 8px 0px;
+      height: 93.5%;
+
+      .aside-pt1 {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h4 {
+          font-size: 16px;
+          margin: 16px 5px;
+        }
+        ul {
+          list-style-type: none;
+          padding: 3px 10px;
+          margin: 0px;
+          height: 50px;
+          li {
+            display: inline;
+            a {
+              font-size: 20px;
+              color: $color-rojo-principal;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .hr-aside {
+        width: 80%;
+      }
+      .h4-aside {
+        font-size: 18px;
+        text-align: center;
+      }
+      .aside-pt2 {
+        h4 {
+          font-size: 16px;
+          margin: 15px 5px;
+        }
+      }
+      .caja-etiquetas-aside {
+        width: 80%;
+        padding: 15px;
+        height: 120px;
+        position: relative;
+        top: -20px;
+        left: 20px;
+        a:hover {
+          background-color: $color-rojo-principal;
+          color: #fff;
+        }
+        a {
+          float: left;
+          padding: 4px;
+          margin: 3px;
+          text-decoration: none;
+          color: $color-rojo-principal;
+          font-size: 14px;
+          font-weight: 500;
+          border: 2px solid $color-rojo-principal;
+          border-radius: 8px;
+        }
+      }
+      .aside-pt3 {
+        background-color: $color-rojo-principal;
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+      .aside-pt4 {
+        width: 100%;
+        text-align: center;
+        img {
+          width: 150px;
+          margin: 18px 4px;
+        }
+        h4 {
+          margin: 2px 2px;
+        }
+        .hr-aside2 {
+          width: 40%;
+          border-color: #962328;
+        }
+      }
+      .aside-pt5 {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        hr {
+          width: 40%;
+          border-color: $color-rojo-principal;
+        }
+        .hr-aside-5 {
+          width: 80%;
+          border-color: $color-rojo-principal;
+        }
+        i {
+          padding: 6px;
+        }
+        p {
+          padding: 3px 5px;
+        }
+      }
+    }
+  }
+}
+.seccion-media {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  .media-1 {
+    display: flex;
+
+    width: 10%;
+    position: relative;
+    top: 25px;
+    align-items: start;
+    hr {
+      width: 100%;
+      border-color: #962328;
+    }
+  }
+  .media-2 {
+    margin: 1px 20px;
+    h2 {
+      font-size: 40px;
+      margin: 4px 2px;
+      transform: scaleX(1);
+      opacity: 0.3;
+      letter-spacing: 6px;
+    }
+    p {
+      font-size: 25px;
+      position: relative;
+      bottom: 65px;
+      left: 12px;
+      letter-spacing: 3px;
+      font-weight: 500;
+    }
+  }
+}
+.caja-contenedora-articulos__2 {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1230px;
+
+  .articulo-secundario-1 {
+    padding: 10px 6px;
+    margin: 15px 6px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -13%;
+    width: 58%;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
+    img {
+      width: 250px;
+      padding: 26px 16px;
+    }
+    .caja-secundaria-1 {
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+  .articulo-secundario-2 {
+    padding: 10px 6px;
+    margin: 15px 6px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -13% !important;
+    width: 58% !important;
+    box-shadow: 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 80%);
+
+    img {
+      width: 250px;
+      padding: 26px 16px;
+    }
+    .caja-secundaria-2 {
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    padding: 10px 6px;
+    margin: 15px 6px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -5%;
+    width: 69%;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
+  }
+  .articulo-secundario-3 {
+    padding: 10px 6px;
+    margin: 15px 6px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    position: relative;
+    left: -13% !important;
+    width: 58% !important;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
+    left: -5%;
+    width: 69%;
+
+    p {
+      margin: 5px 15px;
+      opacity: 0.7;
+    }
+    h4 {
+      margin: 10px 20px;
+    }
+  }
+  .abrir4,
+  .abrir3,
+  .abrir2,
+  .abrir1 {
+    padding: 8px 16px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #962328;
+    color: #962328;
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 20px;
+  }
+  .abrir4:hover {
+    background-color: $color-rojo-principal;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  .abrir1:hover {
+    background-color: $color-rojo-principal;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  .abrir2:hover {
+    background-color: $color-rojo-principal;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  .abrir3:hover {
+    background-color: $color-rojo-principal;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  .abrir3 {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    top: 0px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+  .abrir4 {
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+  }
+}
+.seccion-final {
+  width: 100%;
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #362d28;
+    justify-content: center;
+    align-items: center;
+    .contacto-footer {
+      display: flex;
+      width: 90%;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+      .padre1,
+      .padre2,
+      .padre3 {
+        width: 30%;
+      }
+      h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+      }
+      .footer-linea1 {
+        width: 365px;
+        background-color: white;
+      }
+
+      .footer-linea2 {
+        width: 165px;
+        background-color: white;
+        margin-top: 2%;
+      }
+    }
+    .formulario-2 {
+      width: 93%;
+      display: flex;
+      justify-content: space-around;
+      .formulario-caja-footer {
+        width: 34%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+          width: 90%;
+          height: 30px;
+          margin: 16px 4px;
+          border: 3px solid $color-rojo-principal;
+          border-radius: 10px;
+          font-size: 16px;
+          padding: 2px 16px;
+        }
+        input:hover {
+          background-color: rgba(150, 25, 40, 0.5);
+
+          opacity: 1;
+          color: #fff;
+        }
+        textarea {
+          height: 100px;
+          width: 90%;
+          border: 3px solid $color-rojo-principal;
+          border-radius: 10px;
+          margin: 16px 4px;
+          font-size: 16px;
+          padding: 12px 16px;
+          resize: none;
+        }
+        textarea:hover {
+          background-color: rgba(150, 25, 40, 0.5);
+
+          opacity: 1;
+          color: #fff;
+        }
+        .enviar-footer {
+          width: 30%;
+          height: 30px;
+          border-radius: 10px;
+          font-size: 14px;
+          background-color: #362d28;
+          color: #fff;
+          font-weight: 500;
+          cursor: pointer;
+          transition: 0.3s ease all;
+        }
+        .enviar-footer:hover {
+          background-color: #962328;
+          opacity: 0.5;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      .formulario-info {
+        width: 34%;
+        display: flex;
+        position: relative;
+        left: -10%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        .hijo-formulario-info1 {
+          width: 70%;
+          display: flex;
+          color: #fff;
+          align-items: center;
+          img {
+            padding: 3px 10px;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .hijo-formulario-info2 {
+          width: 70%;
+          display: flex;
+          color: #fff;
+          align-items: center;
+          .icono-correo {
+            padding: 3px 10px;
+            width: 20px;
+            height: 15px;
+          }
+        }
+        .hijo-formulario-info3 {
+          width: 70%;
+          display: flex;
+          align-items: center;
+          color: #fff;
+          img {
+            padding: 3px 10px;
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+      .hr-separador-footer {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        hr {
+          height: 250px;
+        }
+      }
+    }
+
+    .footer-iconos {
+      height: 100px;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      ul {
+        list-style-type: none;
+        padding: 2px 4px;
+        li {
+          display: inline;
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .fondo-rojo {
+    background-color: $color-rojo-principal;
+    height: 40px;
+  }
+  .footer {
+    background-color: #000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      color: #fff;
+      font-size: 16px;
+    }
+    img {
+      width: 60px;
+      height: 30px;
+    }
+  }
+}
+/*---------------*/
+/*POPUP ESTILOS*/
+/*---------------*/
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+  .show {
+    pointer-events: all;
+    opacity: 1;
+  }
+  .popup {
+    background: rgba(171, 171, 171, 1);
+    width: 70%;
+    height: 70%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+
+    .popup-header {
+      background: #000;
+      height: 40px;
+      .cerrar-popup {
+        font-size: 26px;
+        line-height: 16px;
+        display: block;
+        text-align: right;
+        color: #bbbbbb;
+        transition: 0.3s ease all;
+        margin: 8px 12px;
+      }
+      .cerrar-popup:hover {
+        color: $color-rojo-principal;
+      }
+    }
+    .popup-contenido {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 160px;
+        height: 160px;
+        margin-top: 10px;
+        border-radius: 10px;
+        /*opacity: 0;*/
+      }
+      h4 {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 10px 10px;
+        /*opacity: 0;*/
+      }
+      p {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .popup-footer {
+      background: #000;
+      display: flex;
+      height: 40px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      p {
+        color: #fff;
+      }
+      img {
+        width: 45px;
+        height: 12px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+// .overlay.active {
+//   visibility: visible;
+// }
+
+.active {
+  display: flex !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-coopesur {
+    .contenedor-iconos-inicio {
+      justify-content: center;
+    }
+    .coopesur-contenedor__1-menu {
+      .coopesur-menu {
+        display: none;
+      }
+      .coopesur-menu-responsivo {
+        display: flex;
+        justify-content: right;
+        .myNav {
+          width: 100%;
+          display: flex;
+          #back_menu {
+            background: rgba(0, 0, 0, 0.7);
+            width: 100vw;
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            display: none;
+          }
+          .hamburguesa-content {
+            display: flex;
+            background-color: rgba(245, 204, 152, 0.8);
+            flex-direction: column;
+            position: relative;
+            top: 0;
+            right: -950px;
+            width: 100%;
+            height: 100vh;
+            z-index: 10;
+            padding: 40px;
+            transition: all 300ms;
+            a:first-child {
+              width: max-content;
+              background-color: rgba(150, 25, 40, 0.7);
+              border: 2px solid red;
+              border-radius: 16px;
+              padding: 3px 2px;
+            }
+            a {
+              font-size: 25px;
+              color: #000;
+              font-weight: 600;
+              text-decoration: none;
+              padding: 20px 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .inicio-coopesur2 {
+    .caja-img-inicio {
+      width: 81%;
+    }
+  }
+  .caja-contenedora-articulos__1 {
+    height: 2320px;
+    .articulo-principal {
+      flex-direction: column;
+      height: 2200px;
+      justify-content: flex-start;
+      .articulo-principal-pt1 {
+        width: 96%;
+        .caja-articulo-pt1 {
+          height: 1150px;
+        }
+      }
+
+      .aside-articulo-principal {
+        margin: 0px;
+        width: 96%;
+        height: 1000px;
+        box-shadow: 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 80%);
+      }
+    }
+  }
+  .seccion-media {
+    justify-content: center;
+  }
+  .caja-contenedora-articulos__2 {
+    .articulo-secundario-1 {
+      width: 80%;
+      position: relative;
+      left: -1%;
+    }
+    .articulo-secundario-2 {
+      width: 80% !important;
+      left: -1% !important;
+    }
+    .articulo-secundario-3 {
+      width: 80% !important;
+      left: -1% !important;
+    }
+  }
+  .seccion-final {
+    .formulario {
+      .contacto-footer {
+        height: 100px;
+      }
+      .formulario-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .hr-separador-footer {
+          display: none;
+        }
+        .formulario-caja-footer {
+          width: 80%;
+        }
+        .formulario-info {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  /*estilos menu hamburguesa*/
+  .bars__menu {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 8%;
+    left: 90%;
+    background: rgba(223, 120, 217, 0.1);
+    border-radius: 90px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .bars__menu span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #ede9ee;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    animation-fill-mode: inherit;
+    animation-direction: alternate-reverse;
+    transition: all 300ms;
+  }
+  .bars__menu span:hover {
+    background-color: $color-rojo-principal;
+  }
+  .activeline1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 1px);
+  }
+
+  .activeline2__bars-menu {
+    opacity: 0;
+    margin-left: -30px;
+  }
+
+  .activeline3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 2px);
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  .header-coopesur {
+    .coopesur-contenedor__1-menu {
+      .coopesur-menu {
+        .caja-contenedor__menu {
+          justify-content: space-evenly;
+          .caja-menu-lista ul li a {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 a {
+    font-size: 20px;
+  }
+  .seccion-media {
+    justify-content: center;
+    .media-2 {
+      .media-p2 {
+        font-size: 35px;
+        letter-spacing: 7px;
+        left: 1px !important;
+        top: -72%;
+      }
+    }
+  }
+  .caja-contenedora-articulos__2 {
+    display: flex;
+    .articulo-secundario-1 {
+      width: 78%;
+      left: 0%;
+    }
+    .articulo-secundario-2 {
+      width: 78% !important;
+      left: 0% !important;
+    }
+    .articulo-secundario-3 {
+      width: 78% !important;
+      left: 0% !important;
+    }
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1500px) {
+  .header-coopesur {
+    .coopesur-contenedor__1-menu {
+      .coopesur-menu {
+        .caja-contenedor__menu {
+          justify-content: space-evenly;
+          .caja-menu-lista ul li a {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .inicio-coopesur1 .inicio-coopesur__caja1 a {
+    font-size: 20px;
+  }
+  .seccion-media {
+    justify-content: center;
+    .media-2 {
+      .media-p2 {
+        font-size: 35px;
+        letter-spacing: 7px;
+        left: 1px !important;
+        top: -72%;
+      }
+    }
+  }
+  .caja-contenedora-articulos__2 {
+    display: flex;
+    .articulo-secundario-1 {
+      width: 78%;
+      left: 0%;
+    }
+    .articulo-secundario-2 {
+      width: 78% !important;
+      left: 0% !important;
+    }
+    .articulo-secundario-3 {
+      width: 78% !important;
+      left: 0% !important;
+    }
+  }
+}

@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/36f2e0049f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="img/cropped-Ico-180x180.png" href="img/cropped-Ico-180x180.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;1,100;1,600;1,700;1,900&family=Roboto+Mono:wght@200;300;500&display=swap"
         rel="stylesheet">
     <title>Coffee Bar</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -38,30 +39,47 @@
                     <img src="img/CoopeSur-logo.png" alt="coopesur-logo1">
                     <div class="caja-menu-lista">
                         <ul>
-                            <li class:""><a href="http://" target="_blank" rel="noopener noreferrer">Conocenos</a></li>
+                            <li class:""><a href="#news">Conocenos</a></li>
                         </ul>
                         <ul>
-                            <li class="li-menu-1"><a href="http://" target="_blank" rel="noopener noreferrer">Nuestra
+                            <li class="li-menu-1"><a href="#nuestra" >Nuestra
                                     Cadena</a></li>
                         </ul>
                         <ul>
-                            <li class="li-menu-1"><a href="http://" target="_blank" rel="noopener noreferrer">Labor
+                            <li class="li-menu-1"><a href="#labor" >Labor
                                     Social</a></li>
                         </ul>
                         <ul>
-                            <li class="li-menu-1"><a href="http://" target="_blank"
-                                    rel="noopener noreferrer">Certificaciones</a></li>
+                            <li class="li-menu-1"><a href="#certifi">Certificaciones</a></li>
                         </ul>
                         <ul>
-                            <li class="li-menu-1"><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+                            <li class="li-menu-1"><a href="#blog">Blog</a>
                             </li>
                         </ul>
                         <ul>
-                            <li class="li-menu-1"><a href="http://" target="_blank"
-                                    rel="noopener noreferrer">Contáctanos</a></li>
+                            <li class="li-menu-1"><a href="#contactanos">Contáctanos</a></li>
                         </ul>
                     </div>
-                </div>
+                </div>               
+            </main>
+            <main class="coopesur-menu-responsivo">
+                <!-- caja menu hamburguesa -->
+    <div id="myNav" class="myNav">
+        <div class="bars__menu" id="btn-menu-responsive">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+        </div>
+        <div id="back_menu"></div>
+        <div class="hamburguesa-content" id="nav-hambur">
+           <a href="#news">Conocenos</a>
+           <a href="#contact">Nuestra Cadena</a>
+           <a href="#about">Labor social</a>
+            <a href="#news">Certificaciones</a>
+           <a href="#contact">blog</a>
+           <a href="#about">Contactanos</a>
+        </div>
+      </div>
             </main>
         </div>
     </header>
@@ -200,7 +218,7 @@
             <div class="caja-secundaria-1">
                 <h4>Origen del Cafe</h4>
                 <p>Aprende con nosotros el origen de nuestro rico cafe colombiano</p>
-                <button class="btn-abrir-popup1" id="btn-abrir-popup1">Leer más</button>
+                <button class="abrir1" id="abrir1"> Leer más </button>
             </div>
         </div>
         <div class="articulo-secundario-2">
@@ -208,26 +226,35 @@
             <div class="caja-secundaria-2">
                 <h4>Cafe Expres Vallecaucano</h4>
                 <p>Nuestra nueva siembra de cafe express directo de la siembra a su tasa</p>
-                <button class="btn-abrir-popup2" id="btn-abrir-popup2">Leer más</button>
+                <button class="abrir2" id="abrir2">Leer más</button>
             </div>
         </div>
         <div class="articulo-secundario-3">
             <div class="caja-secundaria-3">
-                <i class="fa-solid fa-calendar-days"></i>
-                <p>Enero. 19. 2023</p>
+
+                <p><i class="fa-solid fa-calendar-days"></i>Enero. 19. 2023</p>
             </div>
             <h4>Nuestro pais avanza a pasos grandes</h4>
             <p>Gran taller de nuevos emprendedores</p>
-            <button class="btn-abrir-popup3" id="btn-abrir-popup3">Leer más</button>
+            <button class="abrir3" id="abrir3">Leer más</button>
         </div>
-        <button class="btn-abrir-popup4" id="btn-abrir-popup4">Leer más</button>
+        <button class="abrir4" id="abrir4">Ver más</button>
     </div>
     <div class="seccion-final">
         <div class="formulario">
             <div class="contacto-footer">
-                <hr class="linea-footer1">
-                <p>Contáctanos</p>
-                <hr class="linea-footer2">
+                <div class="padre1">
+                    <hr class="linea-footer1">
+                </div>
+                <div class="padre2">
+                    <h3>Contáctanos</h3>
+                </div>
+                <div class="padre3">
+                    <hr class="linea-footer2">
+                </div>
+
+
+
             </div>
             <div class="formulario-2">
                 <div class="formulario-caja-footer">
@@ -235,7 +262,10 @@
                     <input type="email" id="email-footer" name="email" placeholder="Email">
                     <textarea name="textarea-footer" id="textarea-footer" cols="30"
                         style="resize: none overflow: scrool;" rows="10" placeholder="Asunto"></textarea>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" class="enviar-footer" value="Enviar">
+                </div>
+                <div class="hr-separador-footer">
+                    <hr>
                 </div>
                 <div class="formulario-info">
                     <div class="hijo-formulario-info1">
@@ -245,7 +275,7 @@
                         </p>
                     </div>
                     <div class="hijo-formulario-info2">
-                        <img src="img/ico-correo.png" alt="">
+                        <img src="img/ico-correo.png" class="icono-correo" alt="">
                         <p>recursoshumanos@cooperativacoopesur.com</p>
                     </div>
                     <div class="hijo-formulario-info3">
@@ -273,25 +303,31 @@
 
 
     <!-- SECCION DE CAJONES DE VENTANA EMERGENTE -->
-    <div class="overlay" id="overlay">
-        <div class="popup" id="popup">
-            <div class="popup-secundario-1">
-                <div class="popup-header">
-                    <a href="" id="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                </div>
-                <div class="popup-contenido">
-                    <img src="img/Blog Interna.jpg" alt="">
-                    <h4>Origen del Cafe</h4>
-                    <p>Aprende con nosotros el origen de nuestro rico cafe colombiano</p>
-                </div>
-                <div class="popup-footer">
-                    <p>Diseñado por:</p>
-                    <img src="img/Muva.svg" alt="">
-                </div>
+    
+
+    <!-- caja popup -->
+    <div class="overlay show" id="overlay">
+        <div class="popup show" id="popup">
+            <!-- <div class="popup-secundario-1"> -->
+            <div class="popup-header show">
+                <a id="cerrarpopup" class="cerrar-popup" ><i class="fas fa-times"></i></a>
             </div>
+            <div class="popup-contenido">
+                <img id="modal-img" src="img/Blog Interna.jpg" alt="">
+                <h4>Coffe Bar Colombia</h4>
+                <p>Aprende con nosotros el origen de nuestro rico cafe colombiano <br> Sabor unico, Sabor de lo
+                    nuestro..!!</p>
+            </div>
+            <div class="popup-footer">
+                <p>Diseñado por:</p>
+                <img src="img/Muva.svg" alt="">
+            </div>
+            <!-- </div> -->
         </div>
     </div>
+    <script src="js/menu-hamb.js"></script>
 
+    <script src="js/funciones.js"></script>
 </body>
 
 </html>
