@@ -773,6 +773,151 @@ body {
   display: flex !important;
 }
 
+@media only screen and (min-width: 542px) and (max-width: 767px) {
+  .header-coopesur .contenedor-iconos-inicio {
+    justify-content: center;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu {
+    display: none;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo {
+    display: flex;
+    justify-content: right;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav {
+    width: 100%;
+    display: flex;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav #back_menu {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav .hamburguesa-content {
+    display: flex;
+    background-color: rgba(245, 204, 152, 0.8);
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    right: -950px;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    padding: 40px;
+    transition: all 300ms;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav .hamburguesa-content a:first-child {
+    width: -moz-max-content;
+    width: max-content;
+    background-color: rgba(150, 25, 40, 0.7);
+    border: 2px solid red;
+    border-radius: 16px;
+    padding: 3px 2px;
+  }
+  .header-coopesur .coopesur-contenedor__1-menu .coopesur-menu-responsivo .myNav .hamburguesa-content a {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 2px;
+  }
+  .inicio-coopesur2 .caja-img-inicio {
+    width: 81%;
+  }
+  .caja-contenedora-articulos__1 {
+    height: 2620px;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal {
+    flex-direction: column;
+    height: 2200px;
+    justify-content: flex-start;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal .articulo-principal-pt1 {
+    width: 96%;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal .articulo-principal-pt1 .caja-articulo-pt1 {
+    height: 1450px;
+  }
+  .caja-contenedora-articulos__1 .articulo-principal .aside-articulo-principal {
+    margin: 0px;
+    width: 96%;
+    height: 1000px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
+  }
+  .seccion-media {
+    justify-content: center;
+  }
+  .caja-contenedora-articulos__2 .articulo-secundario-1 {
+    width: 80%;
+    position: relative;
+    left: -1%;
+  }
+  .caja-contenedora-articulos__2 .articulo-secundario-2 {
+    width: 80% !important;
+    left: -1% !important;
+  }
+  .caja-contenedora-articulos__2 .articulo-secundario-3 {
+    width: 80% !important;
+    left: -1% !important;
+  }
+  .seccion-final .formulario .contacto-footer {
+    height: 100px;
+  }
+  .seccion-final .formulario .formulario-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-final .formulario .formulario-2 .hr-separador-footer {
+    display: none;
+  }
+  .seccion-final .formulario .formulario-2 .formulario-caja-footer {
+    width: 80%;
+  }
+  .seccion-final .formulario .formulario-2 .formulario-info {
+    width: 80%;
+  }
+  /*estilos menu hamburguesa*/
+  .bars__menu {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 8%;
+    left: 90%;
+    background: rgba(223, 120, 217, 0.1);
+    border-radius: 90px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .bars__menu span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #ede9ee;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    animation-fill-mode: inherit;
+    animation-direction: alternate-reverse;
+    transition: all 300ms;
+  }
+  .bars__menu span:hover {
+    background-color: rgb(150, 25, 40);
+  }
+  .activeline1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 1px);
+  }
+  .activeline2__bars-menu {
+    opacity: 0;
+    margin-left: -30px;
+  }
+  .activeline3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 2px);
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-coopesur .contenedor-iconos-inicio {
     justify-content: center;
