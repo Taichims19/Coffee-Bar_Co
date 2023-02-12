@@ -7,7 +7,7 @@ const popup=document.getElementById('popup');
 const cerrarpopup=document.getElementById('cerrarpopup');
 
 abrir1.addEventListener('click',function() {
-    /*alert hola*/
+   
     document.getElementById('modal-img').src = "img/Blog Interna.jpg";
     overlay.classList.add('active');
     
@@ -15,26 +15,24 @@ abrir1.addEventListener('click',function() {
 });
 
 abrir2.addEventListener('click',function() {
-    /*alert hola*/
+    
     document.getElementById('modal-img').src = "img/Blog Interna2.jpg";
     overlay.classList.add('active');
     
     
 });
 abrir3.addEventListener('click',function() {
-    /*alert hola*/
+    
     document.getElementById('modal-img').src = "img/Blog Interna-3.jpg";
     overlay.classList.add('active');
     
     
 });
 abrir4.addEventListener('click',function() {
-   
-    /*alert hola*/
+
     document.getElementById('modal-img').src = "img/Blog Interna.jpg";
     overlay.classList.add('active');
-    
-    overlay.classList.add('active');
+
     
 });
 

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo "
+    "build": "purgecss --css css/styles.css --content index.html -o css/reducido.css"
 
   },
   "keywords": [],

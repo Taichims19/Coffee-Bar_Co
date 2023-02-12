@@ -18,11 +18,11 @@ function animateBars(){
     
 }
 function mostrar_menu(){
-    nav.style.right = "0px";
+    nav.style.display = "block";
     background_menu.style.display = "block";
 }
 function ocultar_menu(){
-    nav.style.right = "-950px";
+    nav.style.display = "none";
     background_menu.style.display = "none";
 }
 
